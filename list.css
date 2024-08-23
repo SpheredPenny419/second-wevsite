@@ -1,0 +1,64 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    background-image: url(background.jpg) ;
+}
+.all2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 217, 217);
+    margin: 70px;
+    width: 60%;
+    height: 300px;
+    
+
+}
+.all3{
+    display: flex;
+    flex-direction: row;
+    
+}
+.img{
+    display: flex;
+    align-items: center;
+    width:200px;
+    height: 200px;
+    margin: 10px;
+}
+.list-text{
+    display: flex;
+    
+    align-items: center;
+    padding-top:30px;
+}
+.set{
+    display: flex;
+    flex-direction: row;
+}
+.sum{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191, 186, 186);
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: -70px;
+}
+.confirm-button{
+    display: flex;
+    justify-content: center;
+    
+}
+.ending{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+    background-color: red;
+    margin-top: 272px;   
+}

@@ -1,0 +1,33 @@
+
+.all{
+  background-image: url(background.jpg);
+  height:800px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: white;
+  color: red;
+  
+  
+}
+.header{
+  display: flex;
+  padding-top:30px;
+}
+
+.input{
+  border: 2px solid red;
+  width: 100%;
+  margin: 10px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,57 @@
+.all{
+    background-image: url(background.jpg);
+} 
+.header-main{
+    display: flex;
+    flex-direction: row;
+}
+.h1{
+    height: 300px;
+    width:400px;
+}
+.header-text{
+    display: flex;
+    flex-direction: row;
+    padding-left: 400px;
+    justify-content:center;
+    align-items: center;
+    color: rgb(255, 0, 0);
+    font-size: 300%;
+    background-color: white;
+    width: 100%;
+}
+.header-buttons{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.button1{
+    display: flex;
+    margin-right:20px;
+}
+.all-cards{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+
+}
+.cards{
+    display: flex;
+    padding-top:50px;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.ending{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+    background-color: red;  
+    margin-top:30px; 
+}
